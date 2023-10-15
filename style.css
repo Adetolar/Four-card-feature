@@ -1,0 +1,250 @@
+footer{
+    font-size: 11px; text-align: center;
+}
+
+footer a{
+    color: hsl(228, 45%, 44%);
+}
+
+
+@media screen and (max-width:1023px) {
+    body{
+        font-family:Poppins;
+        font-size: 15px;
+        text-align:center;
+        background-color: hsl(0, 18%, 97%) ;
+        clear: right;
+    }
+    main{
+        width: 90%;
+        margin: 0px auto;
+  
+       
+    }
+    
+    header p:first-child{
+        margin: 5px;
+        color:hsl(234, 12%, 34%);
+        font-weight: 200;
+        font-size:x-large;
+        
+    }
+    
+    header p:last-child{
+        margin-top: 10px;
+        font-weight: 400;
+        font-size:medium;
+     
+    }
+    
+    header h2{
+        margin-top: 5px;
+        font-size: x-large;
+        font-weight: 600;
+        
+        
+    }
+    
+    header{
+        padding-bottom: 60px;
+    }
+    
+     h2{
+        color:hsl(234, 12%, 34%);
+        font-weight: 600;
+        font-size: large;
+        margin-bottom: 0px;
+    }
+    p{
+        margin-top: 5px;
+        color: hsl(229, 6%, 66%);
+        font-weight: 400;
+        font-size: small;
+    }
+    
+    .tech{
+        background-color: white;
+        text-align: left;
+        padding: 10px 35px;
+       border-radius: 7px;
+    box-shadow: 2px 20px 40px rgb(201, 199, 199);
+    margin-bottom: 20px;
+      
+    
+    }
+    
+    .tech p {
+        padding-bottom: 20px;
+    }
+    
+    img{
+        float: right;
+        padding-bottom: 20px;
+    }
+    
+    
+    .containerSupervisor{
+        border-top: 5px solid hsl(180, 62%, 55%);
+    }
+    
+    .containerTeam{
+        border-top: 5px solid hsl(0, 78%, 62%);
+       
+    }
+    
+    .containerKarma{
+    
+        border-top: 5px solid hsl(34, 97%, 64%);
+     
+    
+    }
+    
+    .containerCalculator{
+        border-top: 5px solid hsl(212, 86%, 64%);
+        
+    }
+    
+    .clearfix::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+}
+@media screen and (min-width:1024px) {
+    body{
+        font-family:Poppins;
+        font-size: 15px;
+        text-align:center;
+        background-color: hsl(0, 18%, 97%) ;
+       
+        
+    }
+       
+    
+    main{
+        width: 90%;
+        margin: 0px auto;
+         
+    }
+
+    
+    
+    header p:first-child{
+        margin: 5px;
+        color:hsl(234, 12%, 34%);
+        font-weight: 200;
+        font-size:xx-large;
+        
+    }
+    
+    header p:last-child{
+        margin-top: 10px;
+        font-weight: 400;
+        font-size:medium;
+        
+     
+    }
+    
+    header h2{
+        margin-top: 5px;
+        font-size: xx-large;
+        font-weight: 600;
+        
+        
+    }
+    
+    header{
+        padding-bottom: 60px;
+        width: 45%;
+        margin:10px auto ;
+    }
+    
+     h2{
+        color:hsl(234, 12%, 34%);
+        font-weight: 600;
+        font-size: x-large;
+        margin-bottom: 0px;
+    }
+    p{
+        margin-top: 5px;
+        color: hsl(229, 6%, 66%);
+        font-weight: 400;
+        font-size: medium;
+    }
+
+    section{
+
+        display: grid;
+        grid-template-columns: repeat(4 1fr);
+        grid-auto-rows: minmax(150px,auto);
+        
+        grid-gap:30px;
+
+    }
+    
+    .tech{
+        
+
+       
+        background-color: white;
+        text-align: left;
+        padding: 10px 35px;
+        border-radius:7px;
+        box-shadow: 2px 20px 40px rgb(201, 199, 199);
+      
+    
+    }
+    
+    .tech p {
+        padding-bottom: 20px;
+    }
+    
+    img{
+        float: right;
+        padding-bottom: 50px;
+    }
+    
+    
+    .containerSupervisor{
+        grid-column:1/2;
+        grid-row: 2/4;
+       
+        border-top: 5px solid hsl(180, 62%, 55%);
+    
+    
+    }
+    
+    .containerTeam{
+        grid-column: 2/3;
+        grid-row: 1/3;
+        
+        border-top: 5px solid hsl(0, 78%, 62%);
+        
+    }
+    
+    .containerKarma{
+        grid-column: 2/3;
+        grid-row: 3/5;
+        border-top: 5px solid hsl(34, 97%, 64%);
+       
+    
+    }
+    .containerCalculator{
+        grid-column: 3/4;
+        grid-row: 2/4;
+        border-top: 5px solid hsl(212, 86%, 64%);
+       
+    }
+    .clearfix::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+   
+}
+
+
+
+
